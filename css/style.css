@@ -1,3 +1,5 @@
+
+
 @import url(https://fonts.googleapis.com/css?family=Elsie+Swash+Caps);
 @import url(https://fonts.googleapis.com/css?family=Clicker+Script);
 /* This is a comment */
@@ -36,7 +38,7 @@ figcaption {
 /* ID selector (apply to one unique element per page) */
 
 #logo {
-  background: aqua;
+
 }
 
 /* Descendent selector */
@@ -63,4 +65,20 @@ figcaption {
 
 #details a:active {
   color: red;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.col-1 {
+  float: left;
+  width: 32%;
+}
+
+.col-2 {
+  float: left;
+  width: 66%;
+  background: #ccc;
 }
